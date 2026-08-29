@@ -48,9 +48,9 @@ function Splash() {
           src={saffronFlag}
           alt=""
           aria-hidden="true"
-          width={700}
-          height={900}
-          className="pointer-events-none absolute -left-[14%] -top-[3%] w-[46%] rotate-[8deg] mix-blend-darken"
+          width={1400}
+          height={360}
+          className="pointer-events-none absolute -top-[1%] left-1/2 w-[118%] max-w-none -translate-x-1/2 mix-blend-multiply"
         />
 
         {/* top mantra */}
@@ -70,7 +70,7 @@ function Splash() {
             alt="वारीवाणी लोगो — विठ्ठल मूर्ती, वाट आणि पाऊलखुणा"
             width={700}
             height={700}
-            className="w-[46%] drop-shadow-[0_6px_18px_rgba(180,105,20,0.18)]"
+            className="w-[54%] drop-shadow-[0_6px_18px_rgba(180,105,20,0.18)]"
           />
 
           <h1 className="mt-3 font-devanagari text-[3.6rem] font-bold leading-none text-navy">
