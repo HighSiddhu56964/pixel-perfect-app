@@ -50,7 +50,7 @@ function Splash() {
           aria-hidden="true"
           width={208}
           height={518}
-          className="pointer-events-none absolute left-0 top-0 h-[40%] w-auto mix-blend-multiply"
+          className="pointer-events-none absolute left-0 top-0 h-[40%] w-auto"
         />
 
         {/* top mantra */}
