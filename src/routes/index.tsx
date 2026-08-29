@@ -50,7 +50,7 @@ function Splash() {
           aria-hidden="true"
           width={700}
           height={900}
-          className="pointer-events-none absolute -left-[14%] -top-[3%] w-[46%] rotate-[8deg]"
+          className="pointer-events-none absolute -left-[14%] -top-[3%] w-[46%] rotate-[8deg] mix-blend-multiply"
         />
 
         {/* top mantra */}
@@ -64,7 +64,7 @@ function Splash() {
         </div>
 
         {/* centre block */}
-        <section className="relative z-10 flex flex-1 flex-col items-center justify-center px-8 pb-[34%]">
+        <section className="relative z-10 flex flex-1 flex-col items-center justify-center px-8 pb-[40%]">
           <img
             src={warivaaniLogo}
             alt="वारीवाणी लोगो — विठ्ठल मूर्ती, वाट आणि पाऊलखुणा"
@@ -111,7 +111,7 @@ function Splash() {
           width={1080}
           height={640}
           loading="lazy"
-          className="pointer-events-none absolute bottom-[52px] left-0 w-full mask-fade-top"
+          className="pointer-events-none absolute bottom-[46px] left-0 w-full mask-fade-top"
         />
 
         {/* footer band */}
