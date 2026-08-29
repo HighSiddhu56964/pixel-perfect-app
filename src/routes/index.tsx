@@ -48,9 +48,9 @@ function Splash() {
           src={saffronFlag}
           alt=""
           aria-hidden="true"
-          width={1400}
-          height={360}
-          className="pointer-events-none absolute left-0 top-0 h-[150px] w-full object-cover object-top mix-blend-multiply"
+          width={208}
+          height={518}
+          className="pointer-events-none absolute left-0 top-0 h-[40%] w-auto mix-blend-multiply"
         />
 
         {/* top mantra */}
