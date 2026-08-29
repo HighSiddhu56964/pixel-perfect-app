@@ -40,7 +40,7 @@ function Splash() {
           aria-hidden="true"
           width={900}
           height={900}
-          className="pointer-events-none absolute left-1/2 top-[2%] w-[78%] -translate-x-1/2 opacity-[0.28] mix-blend-multiply"
+          className="pointer-events-none absolute left-1/2 top-[2%] w-[78%] -translate-x-1/2 opacity-[0.28] mix-blend-darken"
         />
 
         {/* saffron flag, top-left */}
@@ -50,7 +50,7 @@ function Splash() {
           aria-hidden="true"
           width={700}
           height={900}
-          className="pointer-events-none absolute -left-[14%] -top-[3%] w-[46%] rotate-[8deg] mix-blend-multiply"
+          className="pointer-events-none absolute -left-[14%] -top-[3%] w-[46%] rotate-[8deg] mix-blend-darken"
         />
 
         {/* top mantra */}
