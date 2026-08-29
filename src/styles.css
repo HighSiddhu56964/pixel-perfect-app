@@ -132,6 +132,18 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+@theme {
+  --font-devanagari: "Tiro Devanagari Marathi", "Noto Serif Devanagari", serif;
+  --font-latin: "Cinzel", serif;
+  --color-parchment: oklch(0.968 0.022 85);
+  --color-ink: oklch(0.42 0.06 55);
+  --color-navy: oklch(0.28 0.07 265);
+  --color-saffron: oklch(0.74 0.17 62);
+  --color-saffron-deep: oklch(0.63 0.17 55);
+  --color-band: oklch(0.44 0.14 35);
+  --color-leaf: oklch(0.65 0.13 145);
+}
+
 @layer base {
   * {
     border-color: var(--color-border);
@@ -142,3 +154,19 @@
     color: var(--color-foreground);
   }
 }
+
+@utility bg-glow {
+  background:
+    radial-gradient(120% 70% at 50% 22%, oklch(1 0.03 90 / 0.95) 0%, transparent 62%),
+    radial-gradient(90% 55% at 50% 95%, oklch(0.86 0.1 70 / 0.5) 0%, transparent 70%);
+}
+
+@utility mask-fade-top {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 32%, black 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, black 32%, black 100%);
+}
+
+@utility animate-spin-slow {
+  animation: spin 1.4s linear infinite;
+}
+
